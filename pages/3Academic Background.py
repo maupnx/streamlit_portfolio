@@ -19,8 +19,8 @@ def display_image(url_or_path, width=100):
 # Define the data
 academic_data = {
     "Brand": ["Universidade de São Paulo (USP)", "FIAP"],
-    "Logo": ["C:/Users/maula/OneDrive/Desktop/webpage/pages/images/usp2.jpg",
-             "C:/Users/maula/OneDrive/Desktop/webpage/pages/images/fiap.png"],
+    "Logo": ["pages/images/usp2.jpg",
+             "pages/images/fiap.png"],
     "Description": ["Bachelor Degree in MARKETING", "Master Business Administration in BIG DATA & DATA SCIENCE"]}
 
 with st.expander("Academic"):
@@ -33,12 +33,12 @@ with st.expander("Academic"):
 # Define the data
 extension_data = {
     "Brand": ["UDEMY", "ESPM", "ESPM", "Buscapé University", "EBG School", "IAB Brazil"],
-    "Logo": ["C:/Users/maula/OneDrive/Desktop/webpage/pages/images/udemy.png",
-             "C:/Users/maula/OneDrive/Desktop/webpage/pages/images/espm.jpg",
-             "C:/Users/maula/OneDrive/Desktop/webpage/pages/images/espm.jpg",
-             "C:/Users/maula/OneDrive/Desktop/webpage/pages/images/buscape.png",
-             "C:/Users/maula/OneDrive/Desktop/webpage/pages/images/ebg.png",
-             "C:/Users/maula/OneDrive/Desktop/webpage/pages/images/iab.jpg"],
+    "Logo": ["pages/images/udemy.png",
+             "pages/images/espm.jpg",
+             "pages/images/espm.jpg",
+             "pages/images/buscape.png",
+             "pages/images/ebg.png",
+             "pages/images/iab.jpg"],
     "Description": ["AI & MACHINE LEARNING FUNDAMENTALS", "AGILE METHODS", "PROGRAMATIC MEDIA PLANNING & PURCHASE", "E-COMMERCE PROFESSIONAL", "GAME METRICS", "DIGITAL MEDIA MANAGEMENT AND PLANNING"]}
 
 
