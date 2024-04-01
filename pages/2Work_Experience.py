@@ -8,7 +8,7 @@ with st.expander("Companies i Worked For"):
     col1, col2 = st.columns([1, 4])  # Divide the expander into two columns
 
     with col1:
-        st.image("https://media.licdn.com/dms/image/C4D0BAQF0P0IiVRQPuw/company-logo_200_200/0/1662991128402/gama_university_logo?e=2147483647&v=beta&t=muNYNidqbcDb6YPSPeZKN0k62X-LNmYoYEo-w18_YFQ", width=50)
+        st.image("pages/images/gama.jpeg", width=50)
         st.write("Gama Academy")
         st.write("(Set/2022 - Jan/2024)")
         st.write("")
@@ -16,7 +16,7 @@ with st.expander("Companies i Worked For"):
         st.write("")
         st.write("")               
 
-        st.image("https://miro.medium.com/v2/resize:fit:800/1*sbZv7CgwGNsETvzWx-UgkQ.png", width=50)
+        st.image("pages/images/dp6.jpeg", width=50)
         st.write("DP6 Consultancy")
         st.write("(May/2023 - Nov/2017) and (Jan/2021 - Apr/2023)")
         st.write("")
@@ -33,7 +33,7 @@ with st.expander("Companies i Worked For"):
         st.write("")
         st.write("")
 
-        st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPE1l0jqLlH1ZR3KPXKeiKIDlD9ehzGPaG6FVz_nfSig&s", width=50)
+        st.image("pages/images/estadao.png", width=50)
         st.write("Estadão")
         st.write(" (Nov/2017 - Jan/2021)")
         st.write("")
