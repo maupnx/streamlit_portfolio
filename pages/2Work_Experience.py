@@ -79,7 +79,7 @@ brands_data = {
         "pages/images/globoplay.png",
         "pages/images/telecine.jpeg",
         "pages/images/bradesco.png",
-        "ages/images/stellantis.png",
+        "pages/images/stellantis.png",
         "pages/images/kroton.png",
         "pages/images/itau.png",
         "pages/images/renault.png",
