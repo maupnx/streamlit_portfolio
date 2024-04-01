@@ -74,9 +74,9 @@ def display_image(url_or_path, width=100):
 brands_data = {
     "Brand": ["Raia Drogasil", "Danone", "Globoplay", "Bradesco", "Nubank", "Carrefour", "Fiat", "Itaú", "Renault", "Vivo", "Philips", "Meio & Mensagem"],
     "Logo": [
-        "C:/Users/maula/OneDrive/Desktop/webpage/pages/images/raiadrogasil.png",
-        "C:/Users/maula/OneDrive/Desktop/webpage/pages/images/danone.png",
-        "C:/Users/maula/OneDrive/Desktop/webpage/pages/images/globoplay.png",
+        "pages/images/raiadrogasil.png",
+        "pages/images/danone.png",
+        "pages/images/globoplay.png",
         "C:/Users/maula/OneDrive/Desktop/webpage/pages/images/telecine.jpeg",
         "C:/Users/maula/OneDrive/Desktop/webpage/pages/images/bradesco.png",
         "C:/Users/maula/OneDrive/Desktop/webpage/pages/images/stellantis.png",
