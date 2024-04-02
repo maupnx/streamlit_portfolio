@@ -113,68 +113,9 @@ with st.expander("Volunteer Experience"):
     col1, col2 = st.columns([1, 4])  # Divide the expander into two columns
 
     with col1:
-        st.image("pages/images/.jpeg", width=50)
+        st.image("pages/images/ctc.jpeg", width=50)
         st.write("CTC Digital")
     
     with col2:
         st.write("One of the most transformative experiences of my personal and professional life was creating the Google Analytics and Data Analysis for Digital Cultural Program for Digital Culture - Casas Taiguara in partnership with three colleagues, Leandro Nascimento, Fernando Patini and Lucas Antônio, with full support from dp6. Through this program, I was able to share my years of experience with youth living in downtown Sao Paulo. We taught them how to use Google Analytics, Excel, introduced the basics of data analysis, and helped them create strategic presentations to share their learnings in meetings with company stakeholders. Over the almost three years that I hosted the program, we invited experienced people from the digital marketing business to provide students with exposure to real-life experience.")
-
-
-def markdown_progress(x: float) -> str:
-    return f"""![](https://geps.dev/progress/{x})"""
-
-with st.expander("Tech Stack Skills"):
-    st.write("Data Processing, Martech, Adtech & Data Visualization tools  ")
-
-    df = pd.DataFrame({"Data Analysis Language":["Python", "SQL", "R", "Excel/Google Sheets"], "x": [80, 100, 70, 100]})
-    df["Mastery"] = df["x"].map(markdown_progress)
-    st.markdown(df.to_markdown())
-
-    st.write("")
-    st.write("")
-
-    df = pd.DataFrame({"Web/App Analytics Tool":["Google Analytics", "Adobe Analytics", "Google Tag Manager"], "x": [100, 70, 90]})
-    df["Mastery"] = df["x"].map(markdown_progress)
-    st.markdown(df.to_markdown())
-
-    st.write("")
-    st.write("")
-
-    df = pd.DataFrame({"Dashboard Tools":["Looker Studio", "Power BI"], "x": [100, 100]})
-    df["Mastery"] = df["x"].map(markdown_progress)
-    st.markdown(df.to_markdown())
-    
-    st.write("")
-    st.write("")
-
-    df = pd.DataFrame({"Cloud Platforms": ["Google Cloud Platform", "AWS", "Azure"], "x": [60, 60, 10]})
-    df["Mastery"] = df["x"].map(markdown_progress)
-    st.markdown(df.to_markdown())
-        
-    st.write("")
-    st.write("")
-
-
-    df = pd.DataFrame({"CRM Tools": ["Salesforce Marketing Cloud", "RD Station", "Hubspot"], "x": [90, 100, 100]})
-    df["Mastery"] = df["x"].map(markdown_progress)
-    st.markdown(df.to_markdown())
-
-           
-    st.write("")
-    st.write("")
-
-
-    df = pd.DataFrame({"AdTech Tools": ["Google Ads", "Google Display & Video 360", "Google Search 360", "Amazon Ads" ,"Meta Ads", "TikTok Ads"], "x": [100, 100, 100, 100, 100, 100]})
-    df["Mastery"] = df["x"].map(markdown_progress)
-    st.markdown(df.to_markdown())
-    
-           
-    st.write("")
-    st.write("")
-
-
-    df = pd.DataFrame({"Others Martech": ["VWO (AB Test)", "Optimizely (A/B Test)", "Segment (CDP)", "Hotjar"], "x": [100, 100, 100, 100]})
-    df["Mastery"] = df["x"].map(markdown_progress)
-    st.markdown(df.to_markdown())
-
 ""
