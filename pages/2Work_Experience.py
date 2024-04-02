@@ -120,7 +120,9 @@ with st.expander("Volunteer Experience"):
         st.write("One of the most transformative experiences of my personal and professional life was creating the Google Analytics and Data Analysis for Digital Cultural Program for Digital Culture - Casas Taiguara in partnership with three colleagues, Leandro Nascimento, Fernando Patini and Lucas Antônio, with full support from dp6. Through this program, I was able to share my years of experience with youth living in downtown Sao Paulo. We taught them how to use Google Analytics, Excel, introduced the basics of data analysis, and helped them create strategic presentations to share their learnings in meetings with company stakeholders. Over the almost three years that I hosted the program, we invited experienced people from the digital marketing business to provide students with exposure to real-life experience.")
 
 with st.expander("Referral Links"):
-
+    
+    st.write("")
+    st.write("")
     st.write("Danone - Retail Media with Amazon Ads")
     st.markdown("[Go to Content](https://info.dp6.com.br/case-dp6-danone)")
     st.write("")
