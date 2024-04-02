@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(page_title="Tech Skills", page_icon=":mechanical_arm:", layout="wide")
+
 def markdown_progress(x: float) -> str:
     return f"""![](https://geps.dev/progress/{x})"""
 
