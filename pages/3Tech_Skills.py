@@ -9,14 +9,14 @@ def markdown_progress(x: float) -> str:
 with st.expander("Tech Stack Skills"):
     st.write("Data Processing, Martech, Adtech & Data Visualization tools  ")
 
-    df = pd.DataFrame({"Data Analysis Language":["Python", "SQL", "R", "Excel/Google Sheets"], "x": [80, 100, 70, 100]})
+    df = pd.DataFrame({"Data Analysis Language":["Python", "SQL", "R", "Excel/Google Sheets"], "x": [80, 100, 60, 100]})
     df["Mastery"] = df["x"].map(markdown_progress)
     st.markdown(df.to_markdown())
 
     st.write("")
     st.write("")
 
-    df = pd.DataFrame({"Web/App Analytics Tool":["Google Analytics", "Adobe Analytics", "Google Tag Manager"], "x": [100, 70, 90]})
+    df = pd.DataFrame({"Web/App Analytics Tool":["Google Analytics", "Adobe Analytics", "Google Tag Manager"], "x": [100, 70, 100]})
     df["Mastery"] = df["x"].map(markdown_progress)
     st.markdown(df.to_markdown())
 
@@ -38,7 +38,7 @@ with st.expander("Tech Stack Skills"):
     st.write("")
 
 
-    df = pd.DataFrame({"CRM Tools": ["Salesforce Marketing Cloud", "RD Station", "Hubspot"], "x": [90, 100, 100]})
+    df = pd.DataFrame({"CRM Tools": ["Salesforce Marketing Cloud", "RD Station", "Hubspot"], "x": [100, 100, 100]})
     df["Mastery"] = df["x"].map(markdown_progress)
     st.markdown(df.to_markdown())
 
