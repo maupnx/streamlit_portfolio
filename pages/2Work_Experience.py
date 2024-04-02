@@ -139,7 +139,7 @@ with st.expander("Referral Links"):
     st.write("")
     st.write("")
     st.write("Podcast - Unique Audience Management - Discovering Salesforce Interaction Studio")
-    st.link.button("Go to Podcast", "https://open.spotify.com/episode/5fQRNAjL18neexxiKfiHCg"
+    st.link.button("Go to Podcast", "https://open.spotify.com/episode/5fQRNAjL18neexxiKfiHCg")
     st.write("")
     st.write("")
     st.write("Ecommerce Brazil - Performance Rooms")
