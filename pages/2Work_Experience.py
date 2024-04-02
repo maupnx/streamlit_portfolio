@@ -122,11 +122,11 @@ with st.expander("Volunteer Experience"):
 with st.expander("Referral Links"):
 
     st.write("Danone - Retail Media with Amazon Ads")
-    st.link.button("Go to Content", "https://info.dp6.com.br/case-dp6-danone")
+    st.markdown("[Go to Content](https://info.dp6.com.br/case-dp6-danone)")
     st.write("")
     st.write("")
     st.write("Think With Google - Estadão Digital Transformation")
-    st.link.button("Go to Content", "https://www.thinkwithgoogle.com/intl/pt-br/futuro-do-marketing/transformacao-digital/como-a-transformacao-digital-do-estadao-mostra-um-novo-futuro-para-o-jornalismo/")
+    st.markdown("[Go to Content]("https://www.thinkwithgoogle.com/intl/pt-br/futuro-do-marketing/transformacao-digital/como-a-transformacao-digital-do-estadao-mostra-um-novo-futuro-para-o-jornalismo/)")
     st.write("")
     st.write("")
     st.write("Estadão Incentiva Product Release")
