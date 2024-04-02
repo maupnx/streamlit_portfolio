@@ -121,8 +121,8 @@ with st.expander("Volunteer Experience"):
 
 with st.expander("Referral Links"):
 
-    st.write("Danone - Retail Media")
-    st.link.button("Go to Content", "https://info.dp6.com.br/case-dp6-danone"
+    st.write("Danone - Retail Media with Amazon Ads")
+    st.link.button("Go to Content", "https://info.dp6.com.br/case-dp6-danone")
     st.write("")
     st.write("")
     st.write("Think With Google - Estadão Digital Transformation")
