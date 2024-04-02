@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Maurício's Portfolio", page_icon=":nerd_face:", layout="wide")
+st.set_page_config(page_title="Work Experience", page_icon=":brain:", layout="wide")
 
 # Content under each tab
 with st.expander("Companies i Worked For"):
