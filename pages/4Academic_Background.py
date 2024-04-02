@@ -4,6 +4,8 @@ from PIL import Image
 import os
 import requests
 
+st.set_page_config(page_title="Academic Background", page_icon=":graduation_cap:", layout="wide")
+
 def display_image(url_or_path, width=100):
     try:
         if os.path.exists(url_or_path):  # Check if the path exists locally
