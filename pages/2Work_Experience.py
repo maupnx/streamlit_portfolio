@@ -118,4 +118,38 @@ with st.expander("Volunteer Experience"):
     
     with col2:
         st.write("One of the most transformative experiences of my personal and professional life was creating the Google Analytics and Data Analysis for Digital Cultural Program for Digital Culture - Casas Taiguara in partnership with three colleagues, Leandro Nascimento, Fernando Patini and Lucas Antônio, with full support from dp6. Through this program, I was able to share my years of experience with youth living in downtown Sao Paulo. We taught them how to use Google Analytics, Excel, introduced the basics of data analysis, and helped them create strategic presentations to share their learnings in meetings with company stakeholders. Over the almost three years that I hosted the program, we invited experienced people from the digital marketing business to provide students with exposure to real-life experience.")
+
+with st.expander("Referral Links"):
+
+    st.write("Danone - Retail Media")
+    st.link.button("Go to Content", "https://info.dp6.com.br/case-dp6-danone"
+    st.write("")
+    st.write("")
+    st.write("Think With Google - Estadão Digital Transformation")
+    st.link.button("Go to Content", "https://www.thinkwithgoogle.com/intl/pt-br/futuro-do-marketing/transformacao-digital/como-a-transformacao-digital-do-estadao-mostra-um-novo-futuro-para-o-jornalismo/")
+    st.write("")
+    st.write("")
+    st.write("Estadão Incentiva Product Release")
+    st.link.button("Go To Content", "https://www.meioemensagem.com.br/home/midia/2020/07/09/estadao-aposta-em-gamificacao-para-engajar-estudantes.html")
+    st.link.button("Go to Case Results", "https://www.meioemensagem.com.br/home/midia/2020/07/09/estadao-aposta-em-gamificacao-para-engajar-estudantes.html")
+    st.write("")
+    st.write("")
+    st.write("Case - Performance Room Stellantis")
+    st.link.button("Go to Content", "https://www.dp6.com.br/cases/case-sala-de-performance-fca/"
+    st.write("")
+    st.write("")
+    st.write("Podcast - Unique Audience Management - Discovering Salesforce Interaction Studio")
+    st.link.button("Go to Podcast", "https://open.spotify.com/episode/5fQRNAjL18neexxiKfiHCg"
+    st.write("")
+    st.write("")
+    st.write("Ecommerce Brazil - Performance Rooms")
+    st.link.button("Go to Content", "https://www.ecommercebrasil.com.br/artigos/sala-de-performance/")
+    st.write("")
+    st.write("")
+    st.write("IAB Brazil - Media Performance Guide")
+    st.link.button("Go to Content", "https://silo.tips/download/objetivo-do-documento/")
+    
+                   
+
+             
 ""
