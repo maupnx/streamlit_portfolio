@@ -135,7 +135,7 @@ with st.expander("Referral Links"):
     st.write("")
     st.write("")
     st.write("Case - Performance Room Stellantis")
-    st.link.button("Go to Content", "https://www.dp6.com.br/cases/case-sala-de-performance-fca/"
+    st.link.button("Go to Content", "https://www.dp6.com.br/cases/case-sala-de-performance-fca/")
     st.write("")
     st.write("")
     st.write("Podcast - Unique Audience Management - Discovering Salesforce Interaction Studio")
