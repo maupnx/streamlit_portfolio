@@ -18,7 +18,7 @@ with st.expander("Companies i Worked For"):
 
         st.image("pages/images/dp6.jpeg", width=50)
         st.write("DP6 Consultancy")
-        st.write("(May/2023 - Nov/2017) and (Jan/2021 - Apr/2023)")
+        st.write("(May/2012 - Nov/2017) and (Jan/2021 - Apr/2023)")
         st.write("")
         st.write("")
         st.write("")
